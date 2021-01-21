@@ -1,8 +1,11 @@
-# crown-clothing-store-graphql-apollo
+# crown-clothing-store-PWA
 ### Complete E-Commerce app created using React, Redux, Stripe API, Firebase/Firestorm
 #### Live version: https://sps-crown-clothing-live.herokuapp.com/ (v2.2 of the app)
 
-# v2.2 (this app)
+# v2.3 (this app)
+### This is following the version 2.2, converting the app to an Progressive Web App (PWA)
+
+## v2.2
 ### This is following the version v1.0, and will use GraphQL and Apollo to reach for the data.
 #### https://github.com/alvarosps/crown-clothing-store-graphql-apollo
 * Replacing most of Context API/Redux Sagas with GraphQL/Apollo (only left Directory Context because of not having Sections in the GraphQL Playground)
