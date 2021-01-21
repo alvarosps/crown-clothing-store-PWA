@@ -10,6 +10,8 @@ import { ApolloClient } from 'apollo-boost';
 
 import { resolvers, typeDefs } from './graphql/resolvers';
 
+import * as serviceWorker from './service-worker';
+
 const httpLink = createHttpLink({
 	uri: 'https:///crwn-clothing.com'
 });
@@ -41,3 +43,5 @@ ReactDOM.render(
 	</ApolloProvider>,
 	document.getElementById('root')
 );
+
+serviceWorker.register();
